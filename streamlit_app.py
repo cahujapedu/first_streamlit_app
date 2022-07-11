@@ -1,5 +1,7 @@
-import streamlit
+import streamlit as st
+import pandas as pd
+import numpy as np
 
-streamlit.title('Hello World...')
-streamlit.print('\n\n Testing print function.')
+st.title('Hello World...')
+
 
