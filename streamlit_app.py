@@ -34,3 +34,5 @@ fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 st.dataframe(fruityvice_normalized)
 
 import snowflake.connector
+cffi==1.15.0
+pyarrow==6.0.1
