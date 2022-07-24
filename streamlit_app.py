@@ -36,3 +36,5 @@ st.dataframe(fruityvice_normalized)
 import snowflake.connector
 cffi==1.15.0
 pyarrow==6.0.1
+charset-normalizer~=2.0.0
+
