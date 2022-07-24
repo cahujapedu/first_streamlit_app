@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests as rq
-import snowflake.connector
+#import snowflake.connector
 
 
 st.header('Breakfast Menu')
