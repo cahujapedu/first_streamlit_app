@@ -42,4 +42,4 @@ my_data_rows = my_cur.fetchall()
 st.header("The fruit load list contains:")
 st.dataframe(my_data_rows)
 
-add_my_fruit = st.multiselect("What fruit would you like to add?", list(my_fruit_list.index), ['jackfruit'])
+add_my_fruit = st.multiselect("What fruit would you like to add?", list(my_fruit_list.index), ['Honeydew'])
