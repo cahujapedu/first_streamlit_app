@@ -45,7 +45,7 @@ except URLError as e:
   st.error()
   
 # don't do anything past this line
-st.stop()
+#st.stop()
 
 #my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
 #my_cur = my_cnx.cursor()
